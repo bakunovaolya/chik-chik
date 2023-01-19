@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Барбершоп Chik-chik</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="header">
+        <div class="container">
+            <div class="header__container">
         <img class="header__logo" src="img/logo.svg" alt="Логотип Барбершоп Chik-chik">
         <nav class="header__navigation navigation">
             <ul class="navigation__list">
@@ -20,6 +23,8 @@
             </ul>
         </nav>
         <a href="#reserve" class="header__link main-link">Записаться</a>
+        </div>
+    </div>
     </header>
     <main>
         <section class="hero">
@@ -264,7 +269,7 @@
                         </fieldset>
                     </fieldset>
                 </div>
-                <button class="reserve__btn main-link">Записаться</button>
+                <button class="reserve__btn main-link" disabled>Записаться</button>
             </form>
             </div>
         </section>
